@@ -52,7 +52,7 @@ _Although the instructor will make a best effort to have the class topic on the 
   * IN-CLASS EXERCISE 1
   
 * (Class 2) Gradle and Build Systems
-  * RECOMMENDED (NOT REQUIRED READING: "Building and Testing With Gradle"
+  * RECOMMENDED (NOT REQUIRED) READING: "Building and Testing With Gradle"
   * Why a build system?
   * Integrating tasks
   * Testing with JUnit
