@@ -4,20 +4,23 @@
 
 **Taught by:** Bill Laboon (laboon at cs dot pitt dot edu)
 
-**Professor's Office Hours:**
+**Instructor's Office Hours:**
 
   * SENSQ 6305
-  * Wednesday 9:00 AM - 12:00 noon
+  * Wednesday 9:30 AM - 11:00 AM and 12:30 PM - 2:00 PM
+  * ... or by appointment
 
 **Class Time:**
+
 Tue / Thu 9:30 AM - 11:15 AM
 
 **Room:**
+
 BENDM G37
 
 **TA:**
 
-TBD, Github username: `TBD`
+Mehrnoosh Raoufi, Github username: `TBD`
 
 **Class GitHub repo:**
 https://www.github.com/laboon/CS1530_Summer2018
