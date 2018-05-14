@@ -5,7 +5,6 @@ _Although the instructor will make a best effort to have the class topic on the 
 
 ## Required Books
 
-* McConnell - Code Complete, Second Edition
 * Tsui - Essentials of Software Engineering (third or fourth edition)
 
 ## Online Resources
@@ -138,7 +137,6 @@ _Although the instructor will make a best effort to have the class topic on the 
   * QUIZ 5
 
 * (Class 2) Function/Method-Level Software Development
-  * __READING: McConnell, Chapters 5 and 10 - 12__
   * Accidental vs Essential Complexities
   * Information Hiding and Encapsulation
   * Managing complexity
@@ -147,7 +145,6 @@ _Although the instructor will make a best effort to have the class topic on the 
 ## WEEK 10 (Week of 16 July)
 
 * (Class 1) Quality Assurance and Quality Software
-  * __READING: McConnell, Chapters 20-23__
   
 * (Class 2) Legacy Code
   * Refactoring
@@ -171,7 +168,6 @@ _Although the instructor will make a best effort to have the class topic on the 
 ## WEEK 12 (Week of 30 July)
 
 * (Class 1) Software Craftmanship
-  *  __READING: McConnell, Chapters 33 - 34__
   * Writing good code - maintainable, testable, etc.
   * Intellectual humility and avoiding complexity
   * Conventions and Abstractions
