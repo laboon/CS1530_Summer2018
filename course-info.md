@@ -29,8 +29,6 @@ https://www.github.com/laboon/CS1530_Summer2018
 
   * Essentials of Software Engineering. Author: Frank Tsui et al. ISBN 9781284106008 (3rd or 4th edition fine)
 
-  * Code Complete (Second Edition). Author: Steve McConnell. ISBN 0790145196705
-
   * Online essays/articles will also be assigned.
 
 This course provides students with a broad understanding of modern software engineering. It will cover both theory and practical skills in software engineering necessary to be successful in industry. To that end, it will cover project and product management, software architecture and design patterns, team communications, and other material relevant to __engineering__ software instead of just __coding__ it.
