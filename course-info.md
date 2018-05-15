@@ -40,7 +40,7 @@ This course provides students with a broad understanding of modern software engi
     * Sprint 2 Deliverable - 10% 
     * Sprint 3 Deliverable - 15%
     * Sprint 4 Deliverable - 15%
-    * Spring 5 Deliverable - 20%
+    * Sprint 5 Deliverable - 20%
   * Reading Quizzes - 30%
     * There are 6 quizzes, with the lowest quiz score being dropped - thus each quiz counts for 6% (30 / 5) of your grade
     
@@ -83,13 +83,17 @@ Students will be grouped into teams of approximately 4, and will work on a speci
 
 Deliverables must be committed to GitHub by the beginning of class on the day that it is due.  Late deliverables will NOT be accepted unless authorized __at least 24 hours before the due date__.
 
+All work will be done on GitHub - please make sure that you have an account which can create private repositories.  If you do not have this, you can get this with the GitHub education pack for free - please make sure you sign up with your pitt.edu address.  You can double-check by trying to create a private repository (by going to your profile page, clicking the Repositories tab, clicking the green "New" button, then at the bottom of that page, switching the radio button to make a private repository).  If you can't do it, please make sure you sign up for the free education pack to gain this ability - https://education.github.com/pack.  You'll also get some neat additional benefits such as fifty dollars in DigitalOcean credit and a free .me domain name.
+
 ## Programming Language Selection
 
 All software projects for this course will be written in the Java language (version 1.8 or later).  Additionally, we will be using associated tools, libraries and frameworks such as Swing, Gradle and JUnit.  These will be discussed in class.
 
 ## Collaborative Programming
 
-Note that all works produced by you are your intellectual property and you may do what you want with it.  However, this class is collaborative.  You may need to show and share your work to other students under the direction of the instructor.
+Note that all works produced by you are your intellectual property and you may do what you want with it.  However, this class is collaborative.  You may need to show and share your work to other students under the direction of the instructor.  
+
+You may discuss your project with members of other groups or the outside community.  That being said, these discussions should be general - having a friend write your code for you is considered academic dishonesty.  Asking how an algorithm would work, posting on Stack Overflow to figure out why a particular program won't install on your system, Googling for syntax, etc. are not considered academic dishonesty.  In general, if you are not showing anybody else your code, you are in the clear; if you are showing other people your code or others are writing it for you, you are committing an academic integrity violation.  If you have any questions about what you are doing might violate academic integrity guidelines, please feel free to discuss with me.
 
 ## Participating in Class
 
