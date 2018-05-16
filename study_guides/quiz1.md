@@ -15,5 +15,5 @@ You should be able to answer questions on these topics for Quiz #1.
 1. Even though most software product failures arise from coding, why might it not be a good idea to fixate on code as a source of errors?
 1. Royce's principles of software enginering are much more focused on an iterative process compared to Davis's principles; why?
 1. Why does Davis say that we should give products to customers early?
-1. Does Davis think that tools are more important than people?
-1. Does David think that management is more important than technology?
+1. Does Davis think that tools are more important than people?  Why or why not?
+1. Does David think that management is more important than technology?  Why or why not?
