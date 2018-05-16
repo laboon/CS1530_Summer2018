@@ -11,6 +11,9 @@ You should be able to answer questions on these topics for Quiz #1.
 1. What is modularization?  Why would we use it?
 1. How does adding a member to a group increase the number of communications pathways?
 1. Understand the basic software development lifecycle (SDLC) - requirement elicitation, design, implementation, testing, release, maintenance
+1. What is Brooks' Law?
+1. Why is software estimation difficult?
+1. Understand the Iron Triangle of Project Management.
 1. CHAOS report - why do projects fail?  Be able to name at least two major reasons.
 1. Even though most software product failures arise from coding, why might it not be a good idea to fixate on code as a source of errors?
 1. Royce's principles of software enginering are much more focused on an iterative process compared to Davis's principles; why?
