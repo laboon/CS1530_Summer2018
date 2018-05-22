@@ -20,12 +20,12 @@ BENDM G37
 
 **TA:**
 
-Mehrnoosh Raoufi, Github username: `TBD`
+Mehrnoosh Raoufi, Github username: `mraoufi`
 
 **Class GitHub repo:**
 https://www.github.com/laboon/CS1530_Summer2018
 
-**Required Texts:** 
+**Required Texts:**
 
   * Essentials of Software Engineering. Author: Frank Tsui et al. ISBN 9781284106008 (3rd or 4th edition fine)
 
@@ -37,14 +37,14 @@ This course provides students with a broad understanding of modern software engi
 
   * Group Project - 70%
     * Sprint 1 Deliverable - 10%
-    * Sprint 2 Deliverable - 10% 
+    * Sprint 2 Deliverable - 10%
     * Sprint 3 Deliverable - 15%
     * Sprint 4 Deliverable - 15%
     * Sprint 5 Deliverable - 20%
   * Reading Quizzes - 30%
     * There are 6 quizzes, with the lowest quiz score being dropped - thus each quiz counts for 6% (30 / 5) of your grade
-    
-Although lecture attendance is not mandatory (except for quiz days), it is strongly recommended that you come to class each for each lecture.  Material may be presented or covered in class that is not in the reading.  
+
+Although lecture attendance is not mandatory (except for quiz days), it is strongly recommended that you come to class each for each lecture.  Material may be presented or covered in class that is not in the reading.
 
 The syllabus is subject to modification if circumstances dictate (e.g. a guest lecturer is unable to make the scheduled day).
 
@@ -91,7 +91,7 @@ All software projects for this course will be written in the Java language (vers
 
 ## Collaborative Programming
 
-Note that all works produced by you are your intellectual property and you may do what you want with it.  However, this class is collaborative.  You may need to show and share your work to other students under the direction of the instructor.  
+Note that all works produced by you are your intellectual property and you may do what you want with it.  However, this class is collaborative.  You may need to show and share your work to other students under the direction of the instructor.
 
 You may discuss your project with members of other groups or the outside community.  That being said, these discussions should be general - having a friend write your code for you is considered academic dishonesty.  Asking how an algorithm would work, posting on Stack Overflow to figure out why a particular program won't install on your system, Googling for syntax, etc. are not considered academic dishonesty.  In general, if you are not showing anybody else your code, you are in the clear; if you are showing other people your code or others are writing it for you, you are committing an academic integrity violation.  If you have any questions about what you are doing might violate academic integrity guidelines, please feel free to discuss with me.
 
