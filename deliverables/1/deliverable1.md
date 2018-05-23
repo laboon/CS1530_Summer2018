@@ -41,11 +41,11 @@ This is necessarily a subjective process, and you may find that a member does no
 
 You may also add your own comments for your rationale for the ranking, but this is not necessary.
 
-1. Member did nothing, or very little, during the sprint.  Member did not respond in a timely manner to others' requests.  Member did not commnicate or communicated rarely with other members.
+1. Member did nothing, or very little, during the sprint.  Member did not respond in a timely manner to others' requests.  Member did not communicate or communicated rarely with other members.
 
 2. Member did less than an expected amount of work this sprint and/or produced work of lesser quality than expected.  Member responded to others in the group, but did so poorly, required multiple prompting, took a long time to respond, or responded right before the due date.  Member did not communicate with other teammates very often.
 
-3. Member did an expected amount of work this sprint, and with an acceptable level of quality.  Member responded to others in a timely fashion when asked to do so.  Member communicated with other teammates reguarly and well.
+3. Member did an expected amount of work this sprint, and with an acceptable level of quality.  Member responded to others in a timely fashion when asked to do so.  Member communicated with other teammates regularly and well.
 
 4. Member did more than expected this sprint and/or did so with a high level of quality.  Member went above and beyond in responding to teammates.  Member went out of their way to communicate and did so quickly and well.
 
