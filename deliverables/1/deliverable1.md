@@ -9,6 +9,8 @@ For the first sprint, each group will need to:
 
 1. Write a walking skeleton and prototype UI of the application using swing and gradle
 2. Write unit tests
+2. Properly use the GitHub projects interface to keep track of user story status
+3. Write a Sprint Report
 
 The team should determine the Scrum Master for this first sprint.  The Scrum Master will change each sprint.
 
@@ -17,7 +19,7 @@ The team should determine the Scrum Master for this first sprint.  The Scrum Mas
 For the first sprint, your team will turn in:
 
 1. A cover page, in the format described below
-2. A description of the sprint, including who worked on which user story
+2. A description of the sprint (a Sprint Report), including who worked on which user story
 3. A "walking skeleton" application available on GitHub in a PRIVATE repository (ADD ME AND THE TA AS COLLABORATORS!  Usernames are `laboon` and `mraoufi`).  Note that running this program should display a basic UI for the program - note that only minimal functionality is required here for the first deliverable.
 
 
@@ -51,8 +53,19 @@ You may also add your own comments for your rationale for the ranking, but this 
 
 5. Member did a heroic amount of work this sprint and/or did work of exceptional quality.  Member is seen as a mentor and role model to others.  Member went above and beyond to communicate quickly and effectively.
 
+## Sprint Report
+
+This should be an approximately one-page report which contains the following information:
+
+1. Who did which stories?
+2. What issues or problems did you encounter?
+3. What went more easily than you expected, or was more difficult?
+4. What design/coding/architectural decisions did you make?
+5. Was there any disagreement on those decisions?  How was it resolved?
+6. Any other significant information about the work done this sprint
+
 ## Grading
-* Deliverable report: 20% of grade
+* Sprint report: 20% of grade
 * Project set up and used correctly on GitHub: 10% of grade
 * Initial GUI: 70% of grade
 
@@ -129,6 +142,12 @@ For the first sprint, only these stories must be implemented.  In other words, t
 Remember that stories must meet the "definition of done" - functionality been tested, code has been reviewed and approved by another member of the team, and any necessary documentation is included.
 
 It is a good idea to "batch" related user stories together and have the same person work on them.
+
+These stories should be filed as GitHub issues and added to the Product Backlog (using GitHub projects).   They should also be assigned to users.  For the first sprint, all of these stories should start in the Sprint Backlog.  You may start adding additional user stories or other tasks to the Product Backlog, but this is not necessary.
+
+As part of Sprint Planning, you should also add the number of story points.  These should be part of the issue description along with a brief summary.  The full user story should be included as the main comment.
+
+We will go over adding issues and user stories in class.
 
 ## Code Review
 
