@@ -1,8 +1,8 @@
-# Lab 2 - Using Git and Variable Types
+# Exercise 1 - Version Control, Build Systems, and GUIs
 
 ## Introduction
 
-This lab will teach you about setting up your own Git repo, creating and merging branches, and pushing to GitHub.  Additionally, it will introduce you (without going into too much detail yet) to Gradle and Swing.
+This exercise will teach you about setting up your own Git repo, creating and merging branches, and pushing to GitHub.  Additionally, it will introduce you (without going into too much detail yet) to Gradle and Swing.
 
 ## What is Git?
 
