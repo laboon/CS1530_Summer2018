@@ -727,7 +727,7 @@ You can set what should happen the user closes the window.  In many cases, we wi
 	_frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 ```
 
-Feel free to look at the JFrame API (https://docs.oracle.com/javase/8/docs/api/javax/swing/JFrame.html) to see what else you can do!  Look under WindowConstants.
+Feel free to look at the JFrame API (https://docs.oracle.com/javase/8/docs/api/javax/swing/JFrame.html) to see what else you can do!
 
 Now, we want to have two sections of the frame.  Each of these sections is called a panel, and like good Swing classes, are called JPanels.  Create them
 
@@ -783,7 +783,9 @@ In the constructor:
 	}
 ```
 
-This will create nine buttons along with their _listeners_ - that is, objects that "listen" for an event to take place, and then execute code when it happens.  We will fill in the listeners soon.
+This will create nine buttons along with their _listeners_ - that is, objects that "listen" for an event to take place, and then execute code when it happens.  We will fill in the listeners now so that they actually do something when the button is pressed.
+
+Note that this style of programming - where code is executed when certain events occur, such as a button being pressed or a timer going off - is known as _event-driven programming_.
 
 Before you can compile, add a ButtonListener.  This can be an internal (non-public) class.  In our case, we will start with a button which just changes to X when it is pressed.
 
@@ -812,11 +814,57 @@ Their default text on the button is `"_"` (the String argument to the JButton co
 
 Using the above code as a base, create one button and listener for the other panel in the layout (`newPanel`).
 
-Using the previous steps as a base, create the listener for the "new game" button.  It should "erase" all of the buttons, putting them back to their default text when pressed.
+Using the previous steps as a base, create the listener for the "new game" button.  It should "erase" all of the buttons, putting them back to their default text when pressed, and the X player should .be the player again.
 
-Using the previous steps as a base, create a boolean variable which flip-flops every time somebody presses a button.  The first time a button is pressed, the player should be an X, the second time an O, the third time an X, etc.  You can determine whether to make the spot an X or O based on this flip-flop variable.
+Using the previous steps as a base, create a boolean variable which flip-flops every time somebody presses a (valid) button.  The first time a button is pressed, the player should be an X, the second time an O, the third time an X, etc.  You can determine whether to make the spot an X or O based on this flip-flop variable.
 
-Finally, add code to ensure that users cannot press a button which is already an X or an O.
+Finally, modify the code to ensure that users cannot press a button which is already an X or an O.
+
+## Adding Graphics
+
+X's and O's are fine, but kids today demand graphics in their high-end video games like Tic-Tac-Toe.  They also demand philosophical references.  Thus we will modify our Tic-Tac-Toe game to use pictures of Plato (X) and Aristotle (O).  (_Pictures taken from the painting "Scuola di Atene" by Raphael - In the public domain and available here: https://en.wikipedia.org/wiki/The_School_of_Athens#/media/File:%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg)
+
+First, make a subdirectory in your project under `src/main` called `resources`.  Download the `plato.png` and `aristotle.png` from this directory and place them there.  The `resources` subdirectory will contain any art, sound, or other resources that you may want to use in your codebase.
+
+Now we want to create an Image object from this particular resource.  Import the `javax.imageio` and `java.io.*` classes from the Java standard library, create two instance variables along with the other instance variables in TicTacToe class, and load the images in the TicTacToe constructor.
+
+Note that those images may not exist (or may not be accessible!), so we will need to catch any IO exception.  This really shouldn't happen, so we will just exit with exit code 1 ( = error) if it does.
+
+```
+import javax.ImageIO.*;
+import java.io.*;
+
+...
+
+// Images
+
+Image _platoImage;
+Image _aristotleImage;
+
+...
+
+
+	try {
+	    _platoImage = ImageIO.read(getClass().getResource("/plato.png"));
+	    _aristotleImage = ImageIO.read(getClass().getResource("/aristotle.png"));
+	} catch (IOException ioex) {
+	    System.exit(1);
+	}
+```
+
+Now we need the button to display an IMAGE instead of TEXT when it is pressed.  We will need to create a new `ImageIcon` object with our image, and set the icon for that button to be our new ImageIcon.
+
+Wherever you are setting text to X, replace it with the following code.
+
+```
+source.setIcon(new ImageIcon(_platoImage));
+source.setText("");
+```
+
+Wherever you set text to O, you will need to do something similar with _aristotleImage.
+
+You may need to go back and modify the original size of the buttons/frames/etc. to prevent automatic resizing.
+
 
 ### Additional Information
 
