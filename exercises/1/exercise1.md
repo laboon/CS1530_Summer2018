@@ -12,7 +12,7 @@ Version control is very useful, as it gives you several benefits:
 2. You can "time-travel" by making save points in your code.  Just like a save point in a video game, you can go back to an earlier point in development.
 3. You can work on a large software project without interfering with others' work or having your own work interfered with.
 
-It is extremely rare to work in a company nowadays which does NOT use version control system (VCS) of some kind.  Git is one VCS, and although far from the only one, it is extremely popular (and by far my personal favorite).  Git is the name of the VCS itself, and GitHub is simply a web-based interface and node in the distributed database that is git.  
+It is extremely rare to work in a company nowadays which does NOT use version control system (VCS) of some kind.  Git is one VCS, and although far from the only one, it is extremely popular (and by far my personal favorite).  Git is the name of the VCS itself, and GitHub is simply a web-based interface and node in the distributed database that is git.
 
 Set up Git and GitHub on your machine using the instructions here: https://help.github.com/articles/set-up-git/
 
@@ -66,7 +66,7 @@ git clone git@github.com:laboon/ex1.git
 This will create a subdirectory.  Go to it and look around.
 
 ```
-cd lab2
+cd ex1
 ls -l
 ```
 
@@ -230,13 +230,13 @@ Delta compression using up to 2 threads.
 Compressing objects: 100% (3/3), done.
 Writing objects: 100% (6/6), 501 bytes | 0 bytes/s, done.
 Total 6 (delta 0), reused 0 (delta 0)
-To git@github.com:laboon/lab2.git
+To git@github.com:laboon/ex1.git
    30c53ec..5bc5379  master -> master
 ```
 
 Now if you look at the repo page on GitHub, you will see Test.java.  Your local machine's copy and the copy on GitHub are in sync.
 
-You may want to make a few more changes and commits to Test.java, and push up to GitHub, to make sure you understand this before we move on.  
+You may want to make a few more changes and commits to Test.java, and push up to GitHub, to make sure you understand this before we move on.
 
 
 ## Installing Gradle
@@ -332,18 +332,18 @@ Now we are going to create a location for our Java files.  Gradle expects that o
 (1706) $ cd java
 
 [laboon@penelope ~/pitt/ex1/src/main/java]
-(1707) $ 
+(1707) $
 ```
 
 Now let's open a `TicTacToe.java` file in this directory and just have it print out "Tic Tac Toe" when it is run.
 
 ```
 public class TicTacToe {
-    
+
     public static void main(String[] args) {
 	System.out.println("Tic Tac Toe");
     }
-    
+
 }
 ```
 
@@ -391,7 +391,7 @@ Fear not, gentle exercise-doer.  Remember when we created the repository that we
 
 ```
 [laboon@penelope ~/pitt/ex1]
-(1751) $ more .gitignore 
+(1751) $ more .gitignore
 .gradle
 /build/
 
@@ -611,11 +611,11 @@ no changes added to commit (use "git add" and/or "git commit -a")
 [laboon@penelope ~/pitt/ex1]
 (1780) $ more src/main/java/TicTacToe.java
 public class TicTacToe {
-    
+
     public static void main(String[] args) {
         System.out.println("Tic Tac Toe: The Game of Kings!!!");
     }
-    
+
 }
 
 [laboon@penelope ~/pitt/ex1]
@@ -672,7 +672,7 @@ The first thing to do is import all of the libraries that we need.  Specifically
 
 ```java
 import java.awt.*;
-import java.awt.event.*; 
+import java.awt.event.*;
 import javax.swing.*;
 ```
 
@@ -689,7 +689,7 @@ public class TicTacToe {
     JFrame _frame = new JFrame("Tic-Tac-Toe");
 
     public static void main(String[] args) {
-       
+
     }
 
 }
@@ -805,7 +805,7 @@ Before you can compile, add a ButtonListener.  This can be an internal (non-publ
 		source.setText("_");
 	    }
 	}
-    
+
     }
 
 ```
@@ -877,9 +877,9 @@ Feel free to take a look at the sample code for these classes to help put the sy
 4. Creating a Grid Layout - https://github.com/laboon/cs0401/blob/master/sample_code/GridDemo.java
 5. Dynamically Changing A Button - https://github.com/laboon/cs0401/blob/master/sample_code/NameChangeButtonDemo.java
 
-Remember that part of being a software engineer is knowing how to look things up on your own!  If you don't understand how something works, feel free to look at the Java API pages (http://docs.oracle.com/javase/8/docs/api/).  
+Remember that part of being a software engineer is knowing how to look things up on your own!  If you don't understand how something works, feel free to look at the Java API pages (http://docs.oracle.com/javase/8/docs/api/).
 
-For fun, you can add code to detect when a player has won or lost.  For even more fun, add some artificial intelligence and have the computer play the user! 
+For fun, you can add code to detect when a player has won or lost.  For even more fun, add some artificial intelligence and have the computer play the user!
 
 ## Grading
 
