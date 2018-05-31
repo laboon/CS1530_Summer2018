@@ -9,7 +9,7 @@ _Although the instructor will make a best effort to have the class topic on the 
 
 ## Online Resources
 
-* Building and Testing With Gradle is available for free online at: http://www2.gradle.com/l/68052/2015-01-13/6dm
+* Gradle Java Quick Start is available for free online at: https://docs.gradle.org/current/userguide/tutorial_java_projects.html
 * A Friendly Introduction to Git by Bill Laboon is available for free online at: https://github.com/laboon/friendly_introduction_git/tree/master/presentation
 
 ## WEEK 1 (Week of 14 May)
@@ -34,7 +34,7 @@ _Although the instructor will make a best effort to have the class topic on the 
   * Davis's Principles
   * Royce's Principles
   * QUIZ 1
-  
+
 * (Class 2) Our Model: Agile/Scrum
   * __Reading: Tsui, Chapter 5 *and* The Agile Manifesto__ - http://agilemanifesto.org/
   * Why Agile?
@@ -49,14 +49,14 @@ _Although the instructor will make a best effort to have the class topic on the 
   * READING: "A Friendly Introduction to git"
   * QUIZ 2
   * IN-CLASS EXERCISE 1
-  
+
 * (Class 2) Gradle and Build Systems
-  * RECOMMENDED (NOT REQUIRED) READING: "Building and Testing With Gradle"
+  * RECOMMENDED (NOT REQUIRED) READING: "Gradle Java Quick Start" - https://docs.gradle.org/current/userguide/tutorial_java_projects.html
   * Why a build system?
   * Integrating tasks
   * Testing with JUnit
   * IN-CLASS EXERCISE 2
-  
+
 ## WEEK 4 (Week of 4 June)
 
 * (Class 1) Understanding Swing
@@ -70,7 +70,7 @@ _Although the instructor will make a best effort to have the class topic on the 
   * CMMI
   * Benefits and Drawbacks of each
   * SPRINT 1 ENDS; SPRINT 2 BEGINS (In-class retrospective)
-  
+
 ## WEEK 5 (Week of 11 June)
 
 * (Class 1) Requirements and User Stories
@@ -100,7 +100,7 @@ _Although the instructor will make a best effort to have the class topic on the 
   * Classical models of integration
   * Continuous Integration
   * SPRINT 2 ENDS; SPRINT 3 BEGINS
-  
+
 ## WEEK 7 (Week of 25 June)
 
 * (Class 1) Software Project Management
@@ -145,7 +145,7 @@ _Although the instructor will make a best effort to have the class topic on the 
 ## WEEK 10 (Week of 16 July)
 
 * (Class 1) Quality Assurance and Quality Software
-  
+
 * (Class 2) Legacy Code
   * Refactoring
   * Sprout and Wrapper methods/classes
@@ -153,7 +153,7 @@ _Although the instructor will make a best effort to have the class topic on the 
   * Finding/modifying seams
   * Finding/modifying inflection points
   * SPRINT 4 ENDS; SPRINT 5 BEGINS
-  
+
 ## WEEK 11 (Week of 23 July)
 
 * (Class 1) Refactoring
