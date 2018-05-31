@@ -8,7 +8,7 @@ Summer Semester 2018
 For the first sprint, each group will need to:
 
 1. Write a walking skeleton and prototype UI of the application using swing and gradle
-2. Write unit tests
+2. Test the program (using either manual or unit tests)
 2. Properly use the GitHub projects interface to keep track of user story status
 3. Write a Sprint Report
 

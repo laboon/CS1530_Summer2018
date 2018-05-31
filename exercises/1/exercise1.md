@@ -831,8 +831,8 @@ Now we want to create an Image object from this particular resource.  Import the
 Note that those images may not exist (or may not be accessible!), so we will need to catch any IO exception.  This really shouldn't happen, so we will just exit with exit code 1 ( = error) if it does.
 
 ```
-import javax.ImageIO.*;
 import java.io.*;
+import javax.imageio.*;
 
 ...
 
