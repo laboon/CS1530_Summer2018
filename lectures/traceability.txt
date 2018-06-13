@@ -1,0 +1,15 @@
+
+Requirement Sources:         Requirements                           System Design
+
+             BACKWARD-FROM                       BACKWARD-TO
+             <---------------                    <------------------
+Joe                          1. The system shall...                 Class A
+                             2. The system shall...                 Feature B
+Jane                         3. The system shall...                 Default Setting C
+                             4. The system shall...                 Architectural Decision D
+4 U.S. Code § 1              5. The system shall...                 Setting E
+             --------------->                    ------------------->
+	     FORWARD-TO                           FORWARD-FROM
+
+"From" always points away FROM the requirement
+"To" always points TO the requirement

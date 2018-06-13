@@ -91,7 +91,7 @@ It is incumbent upon you to make user stories using the Connextra template for t
 
 At the end of this sprint, the system should be able to "play" the game.  That is, players should be able to start the game, transition to the flop/turn/river (i.e., the first three cards in the center, then the fourth, then the fifth), then all players' cards displayed and shown who has won.  At each transition, players should be able to fold, bet a certain amount of money, or call.  Whoever wins the hand gets all of the money in the pot added to their stack.
 
-There is no need to implement AI, antes, etc.  AI players at this point should always fold if there is a bet by the player.  Otherwise, the AI players will fold.  Note this means that no player will ever "win" the game - for this sprint, any money added to the pot will be from the player, and all of the players will automatically fold.
+There is no need to implement AI, antes, etc.  AI players at this point should always fold if there is a bet by the player.  Otherwise, the AI players will call.  Note this means that no player will ever "win" the game - for this sprint, any money added to the pot will be from the player, and all of the players will automatically fold, so the player just gets their money back.  Since there are no antes/blinds/etc., no other money will go into the pot, either.
 
 If not done already, cards should be displayed as images.
 
