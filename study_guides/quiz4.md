@@ -17,6 +17,5 @@ You should be able to answer questions on these topics for Quiz #4.
 15. You do not need to memorize every level of cohesion, but you should know: coincidental vs logical cohesion.
 16. Understand all five levels of coupling.
 17. Understand project management, and how it compares/contrasts with software development methodology.
-18. Understand POMA in regards to project management.
-19. Be able to do Lorenz-Kidd object-oriented project estimation.
-20. Be able to create a valid task network and work breakdown structure (WBS).
+18. Understand phased, incremental, and continuous integration.
+19. Know what a feature toggle is and when it is useful, in regards to integration.
