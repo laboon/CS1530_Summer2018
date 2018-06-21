@@ -7,10 +7,11 @@ Summer Semester 2018
 
 For the third sprint, each group will need to:
 
-1. Add betting and blinds features to the game
-2. Test the program (using either manual or unit tests) and write a test report
-2. Properly use the GitHub projects interface to keep track of user story status
+1. Add betting, blinds and "Random AI" features to the game
+2. Test the program (using either manual or unit tests) and write a test report (details below)
+3. Write an architectural report (details below)
 3. Write a Sprint Report
+2. Properly use the GitHub projects interface to keep track of user story status
 
 The team should determine the Scrum Master for this sprint.  The Scrum Master must be a different person than the one for the first sprint.
 
@@ -21,7 +22,8 @@ For the third sprint, your team will turn in:
 1. A cover page, in the format described below
 2. A description of the sprint (a Sprint Report), including who worked on which user story
 3. A description of the testing you did for this sprint, including unit tests and any defects found
-3. A completely "working" game including bets and simple AI.  Details are below.
+3. A description of the architecture of the system
+3. A completely "working" game including bets, blinds and simple (random) AI.  Details are below.
 
 Format for cover page:
 * The title "*your team name* - SPRINT 3 DELIVERABLE"
@@ -64,11 +66,35 @@ This should be an approximately one-page report which contains the following inf
 5. Was there any disagreement on those decisions?  How was it resolved?
 6. Any other significant information about the work done this sprint
 
+## Test Report
+
+You must include at least twelve unit tests this sprint (we will go into detail on unit testing in class).
+
+You must also write a report (approximately one page) which contains the following information:
+
+1. How did you test this program?
+2. What kinds of edge cases / failure modes did you anticipate?
+3. How did you resolve any defects that you found?
+3. What kinds of defects were found (and hopefully fixed)?
+
+## Architecture Report
+
+You should write an architectural report which indicates:
+
+1. Which architecture style(s) are you using?
+2. Where is there room for improvement?
+3. What parts of the architecture are you proud of?
+3. Are there any architectural tactics you are using?
+3. Going forward, where do you expect problems to occur?
+
+This should be anywhere from one half to one page.
+
 ## Grading
 * Sprint report: 10% of grade
 * Project set up and used correctly on GitHub: 10% of grade
-* Testing and test report: 10% of grade
-* Project: 70% of grade
+* Testing report: 10% of grade
+* Architecture report: 10% of grade
+* Project: 60% of grade
 
 Remember that your grade may be adjusted based on group assessment and analysis.
 
@@ -109,7 +135,9 @@ AI players should have at _least_ a valid random response.  They should never fo
 
 If any functionality from previous sprints has not been completed, you should complete it this sprint.
 
-The game shall end once only one player has money.  At this point, a message shall appear indicating who the winner is and asking if the user would like to play again.  If the user answers yes, the game starts from the beginning.
+The game shall end once only one player has money.  At this point, a message shall appear indicating who the winner is and asking if the user would like to play again.  If the user answers yes, the game starts from the beginning (with everybody in once again with $1000).
+
+In general, at the end of this sprint, you should have an entirely working game, from start to finish.  In the next two sprints, we will work on adding additional features such as more-advanced AI players, timers, training mode, etc.  You can see the benefit of Agile development - at the end of each sprint, we should always have a working version of the game.  Even if our funding gets cut off at the end of this sprint, we will have something to deliver, even if it does not have all of the features the customer wants.
 
 In the case of any confusion or ambiguity, the rules of the game shall follow Hoyle's Rules of Texas Hold'em, available here: https://www.hoylegaming.com/rules/showrule.aspx?RuleID=222
 
