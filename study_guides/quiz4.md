@@ -5,7 +5,7 @@ You should be able to answer questions on these topics for Quiz #4.
 2. How does the architectural design phase differ from the detailed design phase?
 3. What is a software architecture?
 4. Understand the following architectural styles, their benefits and drawbacks, and when they might be used: pipe-and-filter, event-driven, client-server, distributed, layered, MVC, big ball o' mud.
-5. What is the difference between an architectural style and an architectural pattern?
+5. What is the difference between an architectural style and an architectural tactic?
 6. What is a reference architecture?
 7. Understand _completeness_ and _consistency_ in terms of architectural design.
 8. What is a metric?  What are some examples of software design metrics?
