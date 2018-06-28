@@ -9,7 +9,7 @@ import java.lang.reflect.*;
 // http://www.baeldung.com/java-unsafe
 
 public class SoUnsafe {
-    
+
     public static Unsafe getUnsafe() {
 	Unsafe unsafe = null;
 	try {
@@ -28,7 +28,6 @@ public class SoUnsafe {
 	OrdinaryClass oc = new OrdinaryClass();
 	oc.printA();
 
-	
 	// Unsafe - ignore the constructor
 	OrdinaryClass unsafeOc = null;
 	try {
@@ -36,8 +35,8 @@ public class SoUnsafe {
 	} catch (Exception ex) {
 	    // ignore
 	}
-	    
+
 	unsafeOc.printA();
-	
+
     }
 }

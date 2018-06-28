@@ -16,6 +16,5 @@ You should be able to answer questions on these topics for Quiz #4.
 14. Which is better: loose or tight coupling?  Strong or weak cohesion?  Why?
 15. You do not need to memorize every level of cohesion, but you should know: coincidental vs logical cohesion.
 16. Understand all five levels of coupling.
-17. Understand project management, and how it compares/contrasts with software development methodology.
 18. Understand phased, incremental, and continuous integration.
 19. Know what a feature toggle is and when it is useful, in regards to integration.
