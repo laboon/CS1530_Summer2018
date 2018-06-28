@@ -32,10 +32,12 @@ public class SoUnsafe {
 	OrdinaryClass unsafeOc = null;
 	try {
 	     unsafeOc = (OrdinaryClass) theUnsafe.allocateInstance(OrdinaryClass.class);
+
 	} catch (Exception ex) {
 	    // ignore
 	}
 
+	unsafeOc.printA();
 	unsafeOc.printA();
 
     }
