@@ -10,19 +10,19 @@ public class Atomic {
     public static AtomicLong _a = new AtomicLong(5);
 
     // Our unsynchronized long
-    
+
     public static Long _l = new Long(5);
 
     // Our synchronized Long
-    
+
     public static Long _sl = new Long(5);
 
     public static final long NUM_TIMES = 100000;
-    
+
     public static void main(String[] args) {
 
 	Object lock2 = new Object();
-	
+
 	Thread t1 = new Thread(() -> {
 		for (int j = 0; j < NUM_TIMES; j++) {
 		    // Note that our API is slightly different
@@ -41,7 +41,7 @@ public class Atomic {
 		    // synchronized(lock2) {
 			_a.decrementAndGet();
 		    // }
-		}		
+		}
 	    });
 	try {
 	    t1.start();
@@ -64,16 +64,16 @@ public class Atomic {
 	Thread t4 = new Thread(() -> {
 		for (int j = 0; j < NUM_TIMES; j++) {
 		    _l--;
-		}		
+		}
 	    });
-	
+
 	try {
 	    t3.start();
 	    t4.start();
 	    t3.join();
 	    t4.join();
 	} catch (InterruptedException iex) { }
-	
+
 	System.out.println("Regular long is: " + _l);
 	// System.exit(0);
 	// We CAN use a regular Long, but we will need to make sure
@@ -84,14 +84,14 @@ public class Atomic {
 	// that variable!  And remember what to sync on!
 
 	Object lock = new Object();
-	
+
 	Thread t5 = new Thread(() -> {
 		for (int j = 0; j < NUM_TIMES; j++) {
 		    // Note that we are synchronizing on a
 		    // RELEVANT object (_l) instead of just
 		    // a random one as we did when I
 		    // introduced locking and synchronization
-		    
+
 		    synchronized(lock) {
 		    	_sl += 1;
 		    }
@@ -103,9 +103,9 @@ public class Atomic {
 		    synchronized(lock) {
 		    	_sl -= 1;
 		    }
-		}		
+		}
 	    });
-	
+
 	try {
 	    t5.start();
 	    t6.start();
@@ -113,11 +113,11 @@ public class Atomic {
 	    t6.join();
 	} catch (InterruptedException iex) { }
 
-	
+
 	// Print out results
-	
+
 	System.out.println("Synchronized long is: " + _sl);
-	
-				       
+
+
     }
 }
