@@ -1,4 +1,4 @@
-  public class HowManyThreads {
+public class HowManyThreads {
 
     public static void main(String[] args) {
 	while (true) {
