@@ -101,3 +101,5 @@ sys	0m0.075s
 ```
 
 You may show me (or email me) your completed project for three points extra credit on the next deliverable.
+
+Additionally, the fastest project (measuring real time, run on my four core computer) done CORRECTLY by the end of the class will win a prize (only valid for groups of one or two).
