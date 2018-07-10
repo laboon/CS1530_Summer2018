@@ -100,10 +100,4 @@ user	0m13.110s
 sys	0m0.075s
 ```
 
-Please either show this to me in class or email me a link to your work on GitHub in order to receive credit.
-
-```
-Grading:
-Program works correctly: 1.5
-Timing values: 0.5
-```
+You may show me (or email me) your completed project for three points extra credit on the next deliverable.
