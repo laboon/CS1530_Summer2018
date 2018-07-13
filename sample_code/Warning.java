@@ -16,7 +16,9 @@ public class Warning {
 	int c = 0;
 
 	for (Object a : al) {
+	    System.out.println("a is " + a);
 	    c += Integer.parseInt((String) a);
+	    System.out.println("c is " + c);
 	}
     }
 
