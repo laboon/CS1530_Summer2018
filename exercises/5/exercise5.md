@@ -109,7 +109,7 @@ Sieve of Eratosthenes
 
 ## Run Checkstyle
 
-`checkstyle` is a kind of program called a _linter_ which will verify that your program meets the style guidelines - such as variable naming, proper capitalization and indentation, etc. - specified in a given file.  The file you will use is included the GitHub `bug-fodder` repository and is a slightly modified version of the official Google Java style guidelines.
+`checkstyle` is a kind of program called a _linter_ which will verify that your program meets the style guidelines - such as variable naming, proper capitalization and indentation, etc. - specified in a given file.  The file you will use is included in the GitHub `bug-fodder` repository and is a slightly modified version of the official Google Java style guidelines.
 
 You can run checkstyle on Sieve using the following command, assuming you have cloned down the bug-fodder repository.
 
